@@ -94,9 +94,9 @@ def redraw():
   for i in ticker_data:
     data = i[4]
     if data.error:
-      text = font.render("ERROR", 1, (44, 96, 209))
+      text = font.render("noInet", 1, (44, 96, 209))
         #x = ist abstand zu erstem wert
-      text_pos = text.get_rect(); text_pos.y = pos; text_pos.x = 250
+      text_pos = text.get_rect(); text_pos.y = pos; text_pos.x = 400
       surface.blit(text, text_pos)
     else:
       if (hasattr(data,'last_color')):
