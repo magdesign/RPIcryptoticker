@@ -3,10 +3,10 @@
 
 
 
-# Author Tom Fyuri.
-# Pillaged by aybase ~07-2016 for use with Raspberry PI using 2.8" TFT display
-# Simple bitcoin usd ticker (btc-e), you're free to modify or share following code however you like.
-# Version 0.0.6.
+# Author Tom Fyuri, Marc-André Gasser
+# 2017 for use with Raspberry PI using LED Panels
+# Simple bitcoin usd ticker you're free to modify or share following code however you like.
+# Version 0.0.6.1
 
 import threading
 import pygame
